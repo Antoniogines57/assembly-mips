@@ -8,7 +8,7 @@ maluma: .space 101
 .text
 .globl __start
 __start:
-        la $6,maluma
+        la $6,maluma  ##Esta mal, es en $4
         li $5,100
         get_cadena
         li $9,0
